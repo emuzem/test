@@ -13,8 +13,6 @@ RUN yarn install
 # build your project into dist folder
 RUN npm run build
 
-RUN npm start
-
 # stage 2
 FROM nginx:alpine
 
